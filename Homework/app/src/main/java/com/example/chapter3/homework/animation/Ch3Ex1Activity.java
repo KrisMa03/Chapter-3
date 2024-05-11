@@ -1,12 +1,14 @@
-package com.example.chapter3.homework;
+package com.example.chapter3.homework.animation;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.SeekBar;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.chapter3.homework.R;
 
 public class Ch3Ex1Activity extends AppCompatActivity {
     private LottieAnimationView animationView;

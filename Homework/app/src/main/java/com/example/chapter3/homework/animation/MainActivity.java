@@ -1,14 +1,12 @@
-package com.example.chapter3.homework;
+package com.example.chapter3.homework.animation;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.chapter3.homework.animation.Ch3Ex1Activity;
-import com.example.chapter3.homework.animation.Ch3Ex2Activity;
+import com.example.chapter3.homework.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,12 +25,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Ch3Ex2Activity.class));
-            }
-        });
-        findViewById(R.id.btn_ex3).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, com.example.chapter3.homework.animation.Ch3Ex3Activity.class));
             }
         });
     }
